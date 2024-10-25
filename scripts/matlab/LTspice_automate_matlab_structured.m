@@ -35,7 +35,7 @@ run_LTspice_simulation(asc_file_tran);
 %% Modify Netlist
 % Open the netlist and modify the resistor value
 modify_netlist(netlist_file_tran, R_val);
-
+%%
 % Save the new netlist with the updated resistor value
 netlist_file_name_new = save_modified_netlist(spice_file_name_tran, R_val, netlist_directory);
 
