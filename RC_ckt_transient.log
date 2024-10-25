@@ -1,0 +1,21 @@
+Circuit: * D:\Research\circuit_automation\RC_ckt_transient.asc
+
+.OP point found by inspection.
+
+Date: Wed Oct 23 23:43:19 2024
+Total elapsed time: 0.412 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 100088
+traniter = 100088
+tranpoints = 50045
+accept = 50045
+rejected = 0
+matrix size = 3
+fillins = 0
+solver = Normal
+Matrix Compiler1: 50 bytes object code size  0.0/0.0/[0.0]
+Matrix Compiler2: off  [0.0]/0.0/0.0
+

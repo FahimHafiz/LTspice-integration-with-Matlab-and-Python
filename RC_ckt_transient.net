@@ -1,0 +1,12 @@
+* D:\Research\circuit_automation\RC_ckt_transient.asc
+V_source N001 0 PWL(0 0 {Tr} {Read_voltage})
+R1 Vout N001 {R}
+C1 Vout 0 {C}
+.tran 0 {Ts} 0 {Tr/10}
+.param Tr=1e-3
+.param Ts=5
+.param Read_voltage=1
+.param R=2k
+.param C=1m
+.backanno
+.end
