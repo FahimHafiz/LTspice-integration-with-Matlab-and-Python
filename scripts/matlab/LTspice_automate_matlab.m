@@ -26,7 +26,7 @@ cd(netlist_directory);
 % This is just an example on how we can automate any changes we want to see
 % using MATLAB
 
-R_val = 2; % new value of the Resistance in the RC circuit
+R_val = 2; % new value of the Resistance in the RC circuit (in kOhms)
 fid = fopen(spice_file_name_net_tran,'rt') ; % generated net list being opened
 X = fread(fid); % net list file being read
 fclose(fid);
