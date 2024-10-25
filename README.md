@@ -32,11 +32,13 @@ This repository demonstrates how to automate LTSpice circuit simulations using b
 1. Open MATLAB.
 2. Navigate to the `/scripts/` folder.
 3. Run `LTspice_automate_matlab.m`.
+4. `LTspice_automate_matlab_structured.m` can be run also. This code is more written in a more organised way whereas `LTspice_automate_matlab.m` is hardcoded.
 
 ### Running Python Automation
 1. Install required libraries using `pip install -r requirements.txt`.
 2. Navigate to the `/scripts/` folder.
 3. Run `LTspice_automate_python.py`.
+4. `LTspice_automate_python_structured.m` can be run also. This code is more written in a more organised way whereas `LTspice_automate_python.m` is hardcoded.
 
 ## License
 This project is licensed under the MIT License.
