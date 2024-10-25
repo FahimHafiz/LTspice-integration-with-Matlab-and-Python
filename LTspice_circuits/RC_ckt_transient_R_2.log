@@ -2,8 +2,8 @@ Circuit: * D:\Research\LTspice-integration-with-Matlab-and-Python\LTspice_circui
 
 .OP point found by inspection.
 
-Date: Fri Oct 25 10:12:04 2024
-Total elapsed time: 0.477 seconds.
+Date: Fri Oct 25 13:54:57 2024
+Total elapsed time: 0.566 seconds.
 
 tnom = 27
 temp = 27
@@ -17,5 +17,5 @@ matrix size = 3
 fillins = 0
 solver = Normal
 Matrix Compiler1: 50 bytes object code size  0.0/0.0/[0.0]
-Matrix Compiler2: off  [0.0]/0.1/0.0
+Matrix Compiler2: 175 bytes object code size  0.0/0.0/[0.0]
 

@@ -81,7 +81,6 @@ plt.plot(time, voltage, linewidth=2, color='r')
 plt.title('Voltage vs Time', fontsize=14, fontweight='bold')
 plt.xlabel('Time (s)', fontsize=12)
 plt.ylabel('Voltage (V)', fontsize=12)
-plt.legend([f'voltage for R = {R_val}k'])
 plt.grid(True)
 
 

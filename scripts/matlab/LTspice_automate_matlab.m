@@ -19,7 +19,7 @@ system(system_command_tran);
 
 %% Returning to the netlist directory
 cd(netlist_directory);
-%% Extracting raw data from the transient .raw file to determine the SS DC Current
+%% Modify the netlist file, replacing the parameter value
 
 % We have a RC LTspice circuit, where we want to change the original
 % resistance value to see the changes in the output voltage vs. time.
@@ -40,7 +40,7 @@ fid2 = fopen(netlist_file_tran,'wt') ;
 fwrite(fid2,Y1);
 fclose (fid2);
 
-% saving the netlist file
+% saving the new netlist file
 netlist_file_name_new = strcat(spice_file_name_tran, '_R_', num2str(R_val), '.net' );
 fid3 = fopen(netlist_file_name_new, "wt");
 fwrite(fid3, Y1);
