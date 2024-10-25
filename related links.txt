@@ -1,9 +1,0 @@
-Importing a SPICE Model into Multisim without the Component Wizard
-https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000YIN6CAO&l=en-BD
-
-
-How to convert or export/import pspice .asc format into multisim
-https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000YIN6CAO&l=en-BD
-
-Transitioning from PSPICE to NI Multisim
-https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000YG0eCAG&l=en-BD
